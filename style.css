@@ -1,0 +1,173 @@
+body {
+    margin: 0px 10px 0px 10px;
+}
+
+#quran {
+    height: 800PX;
+    width: 800PX;
+    background-color: #FEF8DD;
+
+}
+
+#quran-div {
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #c9a712;
+}
+
+.underlineremover {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    outline: none;
+    font-size: 2rem;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #625ff7;
+}
+
+.button:hover {
+    background-color: #1f09e3;
+    box-shadow: 0 1rem 0.7rem rgba(194, 28, 28, 0.4);
+}
+
+#details {
+    background-color: #dbb6e9;
+    border: solid;
+    font-size: 20px;
+}
+
+#profile {
+    height: 120px;
+    width: 120px;
+}
+
+.static-txt {
+    font-size: 55px;
+}
+
+.wrapper {
+    display: inline-flex;
+    font-size: 60px;
+    color: black;
+}
+
+wrapper .dynamic-txts {
+    /* margin-left: 15px; */
+    height: 90px;
+    line-height: 90px;
+    background: RED;
+    
+}
+
+.dynamic-txts li {
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: e;
+}
+
+.dynamic-txts li span {
+    position: relative;
+    color: #000;
+}
+
+.dynamic-txts li span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border-left: 2px solid;
+    animation: typing 1.5s steps(12) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+#introGIF {
+    background-color: #000000;
+}
+
+#introGIF img {
+    height: 281px;
+    width: 500px;
+}
+
+#description {
+    font-size: 30px;
+}
+
+#description:hover {
+    background-color: #000;
+    color: #fff;
+    border: solid;
+    border-radius: 20px;
+    font-family: 'Merienda', cursive;
+}
+
+#cobutton {
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #625ff7;
+}
+
+#cobutton:hover {
+    background-color: #1f09e3;
+    box-shadow: 0 1rem 0.7rem rgba(194, 28, 28, 0.4);
+    font-size: 20px;
+}
+
+#isbutton {
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #625ff7;
+}
+
+#isbutton:hover {
+    background-color: #1f09e3;
+    box-shadow: 0 1rem 0.7rem rgba(194, 28, 28, 0.4);
+    font-size: 32px;
+}
+
+#fullform {
+    font-size: 30px;
+    font-weight: 30;
+}
+
+.socialbuttons {
+    height: 40px;
+    width: 40px;
+    border: solid;
+    border-radius: 50%;
+    overflow: hidden;
+    border-color: yellow;
+}
+
+.socialbuttons:hover {
+    height: 44px;
+    width: 44px;
+    border-color: violet;
+}
+
+#detailbutton  {
+    width: 20px;
+    background-color: #dbb6e9;
+    border: solid;
+    font-size: 20px;
+}

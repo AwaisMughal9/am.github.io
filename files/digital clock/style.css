@@ -1,0 +1,31 @@
+body{
+    background: #000;
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: lime;
+    font-size: 140px;
+    border: 3px solid #ccc;
+    padding: 0px 5px 0px 5px;
+    font-family:'digital-clock-font'
+}
+
+.mcttf {
+    font-family: 'minecraft-font';
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family:'digital-clock-font';
+    src: url('digital-7.ttf');
+   }
+
+   @font-face {
+    font-family:'minecraft-font';
+    src: url('Minecraft.ttf');
+   }
