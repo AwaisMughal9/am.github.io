@@ -171,3 +171,7 @@ wrapper .dynamic-txts {
     border: solid;
     font-size: 20px;
 }
+
+#name {
+    font-size: 30px;
+}
